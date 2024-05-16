@@ -1,0 +1,98 @@
+// ------------------------------
+// ------------------------------
+//     CUSTOM STYLING BEGINS
+// ------------------------------
+// ------------------------------
+
+@import "custom-mixins";
+
+// ------------------------------
+// GLOBAL
+
+body {
+    // Add global styles for the body here
+  
+  
+  // Add styles for individual elements here
+  p {}
+  ul {}
+  ol {}
+  h1 {}
+  h2 {}
+  h4 {}
+  h5 {}
+  h6 {}
+
+  background: $white;
+
+  }
+  
+  // ------------------------------
+  // HEADER
+  .header {
+    // Add header styles here
+  }
+  
+  // ------------------------------
+  // FOOTER
+  .footer {
+    // Add footer styles here
+  }
+  
+  // ------------------------------
+  // HOMEPAGE
+  .page-type_default {
+    // Add homepage styles here
+  }
+  
+  // ------------------------------
+  // CATEGORY PAGES
+  .page-type_category {
+    // Add category page styles here
+  }
+  
+  .card {
+    h3.card-title {
+        font-weight: 800;
+    }
+    .card-body {
+        background: rgb(201, 147, 201);
+    }
+    // Add card styles here
+  }
+  
+  // ------------------------------
+  // PRODUCT PAGES
+  body.pagetype-product {
+    background: orange;
+    .productView {
+        // Add product view styles here
+        background: rgb(204, 200, 200);
+      }
+      h1 {
+        color: aqua;
+      }
+
+  }
+ 
+  
+  // ------------------------------
+  // PAGES
+  .page-type_page {
+    // Add page styles here
+  }
+  
+  // ------------------------------
+  // BLOG
+  .page-type_blog {
+    // Add blog styles here
+  }
+  
+  // ------------------------------
+  // RESPONSIVE
+  // Add responsive styles here
+  
+  // ------------------------------
+  // OTHERS
+  // Add other styles here
+  

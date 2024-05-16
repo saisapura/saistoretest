@@ -1,0 +1,21 @@
+// COLORS
+
+$black: rgb(63, 59, 59);
+$white: rgb(185, 176, 176);
+$blue: rgb(67, 67, 131);
+
+// FONTS
+.font {
+    &-black {
+        color: $black !important;
+    }
+    &-white {
+        color: &white !important;
+    }
+    &-blue {
+        color: $blue !important
+    }
+    &-bold {
+        font-weight: 700;
+    }
+}

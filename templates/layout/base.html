@@ -48,7 +48,7 @@
         {{~inject 'carouselActiveDotAriaLabel' (lang 'carousel.active_dot_aria_label')}}
         {{~inject 'carouselContentAnnounceMessage' (lang 'carousel.content_announce_message')}}
     </head>
-    <body>
+    <body class="store-{{ settings.store_hash }} pagetype-{{page_type}} {{#if customer.customer_group_name }} customergroup-{{dashcase customer.customer_group_name}}{{/if}}{{#if product.id }} productid-{{product.id}}{{/if}}{{#if page.title}} pagetitle-{{dashcase page.title}}{{/if}}{{#if category.name}} category-{{dashcase category.name}}{{/if}}{{#if category.id}} category-{{category.id}}{{/if}}{{#if brand.name}} brand-{{dashcase brand.name}}{{/if}}">
         <svg data-src="{{cdn 'img/icon-sprite.svg'}}" class="icons-svg-sprite"></svg>
 
         {{> components/common/header }}
